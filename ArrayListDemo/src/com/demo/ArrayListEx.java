@@ -9,7 +9,11 @@ public class ArrayListEx {
 
 		List<String> list=Arrays.asList("Rutuja","Supriya","Komal","Trupti");
 		
-		System.out.println(list);
+		//System.out.println(list);
+		for(String s:list)
+		{
+			System.out.println(s);
+		}
 	}
 
 }
